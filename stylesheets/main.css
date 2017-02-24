@@ -99,17 +99,30 @@ header nav ul li a:hover{
 /* INTRO */
 
 .intro{
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
+	font-size: 24px;
 	text-align: center;
+}
+
+.intro button{
+	margin: 25px;
+	padding: 0 50px;
 }
 
 /* SERVICES */
 
 .services{
 	text-align: center;
+	background-image: url(../images/services.jpg);
+	background-size: 100% 100%;
+	background-repeat: none;
+	width: 100%;
+	height: 600px;
+	color: #fff;
+}
+
+.services-hero{
+	background: rgba(0,0,0,0.5);
+	height: 500px;
 }
 
 .services-content h3{

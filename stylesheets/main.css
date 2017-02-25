@@ -110,17 +110,17 @@ header nav ul li a:hover{
 
 /* SERVICES */
 
-.services{
+.services-hero{
 	text-align: center;
-	background-image: url(../images/services.jpg);
+	background-image: url(../images/services3.jpg);
 	background-size: 100% 100%;
 	background-repeat: none;
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	color: #fff;
 }
 
-.services-hero{
+.services{
 	background: rgba(0,0,0,0.5);
 	height: 500px;
 }

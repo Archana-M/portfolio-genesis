@@ -2,12 +2,12 @@ jQuery(document).ready(function(){
 
 	$(window).scroll(function(){
 		var top = $(window).scrollTop();
-		if(top>=60){
-			$("header").addClass('dark-brown-bg');
+		if(top>=100){
+			$("header").addClass('black-bg');
 		}
 		else
-			if($("header").hasClass('dark-brown-bg')){
-				$("header").removeClass('dark-brown-bg');
+			if($("header").hasClass('black-bg')){
+				$("header").removeClass('black-bg');
 			}
 	});
 

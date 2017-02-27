@@ -60,6 +60,7 @@ a:hover{
 	text-decoration: none;
 }
 
+
 .primary-color{
 	background-color: #ec4d40;
 }
@@ -70,6 +71,10 @@ a:hover{
 
 .dark-brown-bg{
 	background-color: #7d3713;
+}
+
+.black-bg{
+	background-color: #000;
 }
 
 .white{
@@ -87,3 +92,4 @@ a:hover{
 .center{
 	text-align: center;
 }
+

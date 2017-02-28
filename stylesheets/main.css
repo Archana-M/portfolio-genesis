@@ -166,7 +166,7 @@ header nav ul li a:hover{
 	color: #555;
 }
 
-.services-heading, .blog-heading, .contact-heading{
+.services-heading, .portfolio-heading, .contact-heading{
 	margin-bottom: 60px;
 	text-align: center;
 }
@@ -253,4 +253,32 @@ footer p span{
 	margin: 0 0 0 0;
 }
 
+/* PORTFOLIO PAGE*/
 
+.portfolio-banner{
+	margin-top: 0px;
+	background-image: url("../images/portfolio.jpg");
+	text-align: center;
+	color: #fff;
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 300px;
+}
+
+.portfolio-hero{
+	background: rgba(0,0,0,0.5);
+	min-height: 300px;
+}
+
+.portfolio-hero h2{
+	margin-top: 75px;
+}
+
+.sustainable{
+	background-image: url("../images/sustainable.jpg");
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 250px;
+}

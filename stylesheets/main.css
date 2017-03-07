@@ -276,9 +276,31 @@ footer p span{
 }
 
 .sustainable{
-	background-image: url("../images/sustainable.jpg");
-	background-repeat: none;
-	background-size: 100% 100%;
-	width: 100%;
-	min-height: 250px;
+	background-image: url("../images/sustainable.jpg");	
+}
+
+.videoOnly{
+	background-image: url("../images/videoOnly.jpg");	
+}
+
+.cvvc{
+	background-image: url("../images/cvvc.jpg");
+}
+
+.formbuddy{
+	background-image: url("../images/formbuddy.png");
+}
+
+.orthosurgeon{
+	background-image: url("../images/orthosurgeon.jpg");
+}
+
+.portfolio-image {
+    padding-bottom : 30%;
+    margin-top:0.2%;
+    margin-bottom: 0.2%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 95% 95%;
 }

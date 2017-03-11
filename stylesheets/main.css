@@ -140,7 +140,7 @@ header nav ul li a:hover{
 
 .services-hero{
 	text-align: center;
-	background-image: url(../images/services3.jpg);
+	background-image: url(../images/services.jpg);
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	background-repeat: none;
@@ -304,3 +304,58 @@ footer p span{
     background-size: cover;
     background-size: 95% 95%;
 }
+
+
+/* SERVICES */
+
+.servicesPage-banner{
+	margin-top: 0px;
+	background-image: url("../images/servicesPage.jpg");
+	text-align: center;
+	color: #fff;
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 300px;
+}
+
+.servicesPage-heading {
+	background: rgba(0,0,0,0.5);
+	min-height: 300px;
+}
+
+.servicesPage-heading h2{
+	padding-top: 50px;
+}
+
+.service-title::after{
+    display: block;
+    content: " ";
+    margin: .7em auto 0;
+    width: 3em;
+    border-bottom: solid 3px #ec4d40;
+    /*opacity: .5;*/
+}
+
+
+.services-content{
+	padding: 20px;
+	margin: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.servicesPage-learn-button{
+	background-color: transparent;
+	border: 2px solid #ec4d40;
+	color: #ec4d40;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.servicesPage-learn-button:hover{
+	color: black;
+	border: 2px solid black;
+}
+

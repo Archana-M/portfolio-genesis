@@ -166,7 +166,7 @@ header nav ul li a:hover{
 	color: #555;
 }
 
-.services-heading, .portfolio-heading, .contact-heading{
+.services-heading, .portfolio-heading, .contact-heading, .about-heading{
 	margin-bottom: 60px;
 	text-align: center;
 }
@@ -181,6 +181,13 @@ header nav ul li a:hover{
 .learn-button:hover{
 	color: #ec4d40;
 	border: 2px solid #ec4d40;
+}
+
+/* About ME*/
+
+.about-content{
+	font-size: 1.1em;
+	line-height: 34px;
 }
 
 /* Contact */

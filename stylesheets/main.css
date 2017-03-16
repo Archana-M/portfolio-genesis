@@ -285,6 +285,7 @@ footer p span{
 
 .cvvc{
 	background-image: url("../images/cvvc.jpg");
+	/*MasterTux image from pixabay */
 }
 
 .formbuddy{
@@ -295,6 +296,18 @@ footer p span{
 	background-image: url("../images/orthosurgeon.jpg");
 }
 
+.idea{
+	background-image: url("../images/idea.jpg");
+}
+
+.events{
+	background-image: url("../images/events.jpg");
+}
+
+.calculator{
+	background-image: url("../images/calculator.jpg");
+}
+
 .portfolio-image {
     padding-bottom : 30%;
     margin-top:0.2%;
@@ -302,7 +315,7 @@ footer p span{
     background-position:center center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-size: 95% 95%;
+    background-size: 90% 90%;   
 }
 
 

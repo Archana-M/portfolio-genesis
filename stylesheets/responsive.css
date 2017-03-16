@@ -88,6 +88,10 @@
 	.services-each{
 		margin-top: 50px;
 	}
+
+	.portfolio-image{
+		 background-size: 85% 85%;
+	}
 	
 }
 
@@ -146,6 +150,10 @@
 
 	.services-each{
 		margin-top: 50px;
+	}
+
+	.portfolio-image{
+		 background-size: 85% 85%;
 	}
 
 

@@ -333,7 +333,11 @@ footer p span{
 	margin-top: 60px;
 	text-align: center;
 	font-style: bold;
+}
 
+.project-heading{
+	font-size: 1.2em;
+	font-weight: bolder;
 }
 
 

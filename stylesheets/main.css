@@ -197,8 +197,10 @@ header nav ul li a:hover{
 
 .contact-bg{
 
-	background-image: url(asset-path('backgrounds/grey.png'));	
+	background-image: url("../images/contact-bg.jpg");	
 	background-repeat: none;
+	background-size: 100% 100%;
+	background: cover;
 	
 }
 

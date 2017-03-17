@@ -265,6 +265,7 @@ footer p span{
 .portfolio-banner{
 	margin-top: 0px;
 	background-image: url("../images/portfolio.jpg");
+	/*copyright free image obtained from Scott Webb of unsplash.com*/
 	text-align: center;
 	color: #fff;
 	background-repeat: none;
@@ -323,11 +324,20 @@ footer p span{
     background-position:center center;
     background-repeat:no-repeat;
     background-size: cover;
-    background-size: 90% 90%;   
+    background-size: 100% 100%;  
+    min-height: 300px;
+}
+
+.portfolio-prj-heading{
+	margin-bottom: 60px;
+	margin-top: 60px;
+	text-align: center;
+	font-style: bold;
+
 }
 
 
-/* SERVICES */
+/* SERVICES PAGE */
 
 .servicesPage-banner{
 	margin-top: 0px;

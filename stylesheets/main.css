@@ -252,7 +252,7 @@ footer p span{
 	height: 45px;
 	line-height: 45px;
 	text-align: center;
-	margin-top: 46px;
+	/*margin-top: 46px;*/
 	margin-bottom: 0px;
 }
 
@@ -264,8 +264,8 @@ footer p span{
 
 .portfolio-banner{
 	margin-top: 0px;
-	background-image: url("../images/portfolio.jpg");
-	/*copyright free image obtained from Scott Webb of unsplash.com*/
+	background-image: url("../images/portfolio1.jpg");
+	/*copyright free image obtained from Sergei Akulich of unsplash.com*/
 	text-align: center;
 	color: #fff;
 	background-repeat: none;
@@ -285,10 +285,12 @@ footer p span{
 
 .sustainable{
 	background-image: url("../images/sustainable.jpg");	
+	/* copyright free image - unsplash*/
 }
 
 .videoOnly{
-	background-image: url("../images/videoOnly.jpg");	
+	background-image: url("../images/videoOnly.jpg");
+	/* copyright free image - unsplash*/	
 }
 
 .cvvc{
@@ -298,23 +300,27 @@ footer p span{
 
 .formbuddy{
 	background-image: url("../images/formbuddy.png");
+	/* copyright free image - pixabay*/
 }
 
 .orthosurgeon{
 	background-image: url("../images/orthosurgeon.jpg");
+	/* copyright free image - pixabay*/
 }
 
 .idea{
 	background-image: url("../images/idea.jpg");
+	/* purchased image */
 }
 
 .events{
 	background-image: url("../images/events.jpg");
-	/* sasint image from pixabay */
+	/* copyright free image from sasint image - pixabay */
 }
 
 .calculator{
 	background-image: url("../images/calculator.jpg");
+	/* copyright free image - pixabay*/
 }
 
 .portfolio-image {
@@ -333,6 +339,7 @@ footer p span{
 	margin-top: 60px;
 	text-align: center;
 	font-style: bold;
+	color: #160359;
 }
 
 .project-heading{
@@ -340,6 +347,47 @@ footer p span{
 	font-weight: bolder;
 }
 
+.portfolioPage-learn-button{
+	background-color: transparent;
+	border: 2px solid #3e82d4;
+	color: #3e82d4;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.portfolioPage-learn-button:hover{
+	color: black;
+	border: 2px solid black;
+}
+
+.nextLevel{
+	background-image: url("../images/nextLevel.jpg");
+	/* copyright free image from ahmad-dirini - unsplash*/
+	background-size: cover;
+    background-size: 100% 100%;  
+    min-height: 300px;
+
+}
+
+.nextLevel-hero{
+	background: rgba(0,0,0,0.6);
+	min-height: 300px;
+
+}
+.nextLevel-content{
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.nextLevel-content button{
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
 
 /* SERVICES PAGE */
 

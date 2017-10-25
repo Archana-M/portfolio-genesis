@@ -54,7 +54,7 @@ header nav ul li a:hover{
 	background-repeat: none;
 	background-size: 100% 100%;
 	width: 100%;
-	min-height: 600px;
+	min-height: 500px;
 
 }
 
@@ -71,8 +71,7 @@ header nav ul li a:hover{
 }
 
 .banner a{
-	padding: 5px 60px;
-	margin-right: 30px;
+	
 	color: #fff;
 	/*border-radius: 5px;*/
 	font-size: 1.5em;
@@ -92,7 +91,7 @@ header nav ul li a:hover{
 .hero{
 	background: rgba(0,0,0,0.7);
 	width: 100%;
-	min-height: 600px;
+	min-height: 500px;
   	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
@@ -114,6 +113,16 @@ header nav ul li a:hover{
 	color: #ec4d40;
 	border: 2px solid #ec4d40;
 }
+
+.btn-linkedin{
+			color: #007bb6;
+			font-size: 1.5em;
+		}
+
+.btn-github{
+			color: black;
+			font-size: 1.5em;
+		}
 
 /* INTRO */
 
@@ -200,7 +209,12 @@ header nav ul li a:hover{
 	background-image: url("../images/contact-bg.jpg");	
 	background-repeat: none;
 	background-size: 100% 100%;
-	background: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+	
 	
 }
 
@@ -305,8 +319,15 @@ footer p span{
 	/* copyright free image - pixabay*/
 }
 
+.orderAhead{
+	background-image: url("../images/orderAhead.png");
+	height: 600px;
+	/* screen-shot of the project*/
+}
+
 .orthosurgeon{
 	background-image: url("../images/orthosurgeon.jpg");
+	height: 600px;
 	/* copyright free image - pixabay*/
 }
 
@@ -426,8 +447,6 @@ footer p span{
 .services-content{
 	padding: 20px;
 	margin: 15px;
-	border: 1px solid black;
-	border-radius: 5px;
 }
 
 .servicesPage-learn-button{

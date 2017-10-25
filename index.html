@@ -5,12 +5,9 @@
 		<!-- META DATA -->
 
 		<meta charset="utf-8">
-
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	  	<title>Ortho</title>
-
-	  	<meta name="description" content="">
-
+	  	<meta name="description" content="Web Developer with a passion to learn new technologies, and build applications that is maintainable and user intuitive.  Proficient in developing responsive web applications using ReactJS, Redux, NodeJS, Express, HTML, and CSS.">
+	  	<meta name="author" content="Archana Mudiam">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	    <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -41,11 +38,11 @@
 						<ul>	
 							<li><a href="portfolio.html">Portfolio</a></li>
 		
-							<li><a href="services.html">Services</a></li>
+							<li><a href="skills.html">Skills</a></li>
 
 							<li><a href="#about">About</a></li>
 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#about">Contact</a></li>
 						</ul>
 					</nav>
 					<div class="clearfix"></div>			
@@ -58,7 +55,16 @@
 			<div class="hero">
 				<h1>Simple and responsive websites</h1>
 				<p>Let your business <b>stand out</b> with a simple and unique website.</p>
-				<button class="hero-button">Let's get started!</button>
+				<div class="row" >
+					<div class=" col-md-12 col-sm-12">
+
+				        <a href="https://www.linkedin.com/in/archanamudiam" target="_blank" class="btn btn-social-icon btn-lg btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-lg']);">
+				              <i class="fa fa-linkedin"></i></a> 
+
+				        <a href="https://github.com/Archana-M" target="_blank" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-lg']);">
+				              <i class="fa fa-github"></i></a></p> 
+    				</div>
+				</div>
 				
 			</div>		
 		</section>
@@ -69,47 +75,53 @@
 				<div class="col-lg-3 col-md-2 col-sm-2"></div>
 				<div class="intro col-lg-6 col-md-8 col-sm-8">
 					<p>Thank you for visiting my website.</br> My name is Archana. </br>I develop <b>simple and user friendly</b> web applications.</br>
-					<button class="c-work primary-color">Checkout my work</button></p>
+					<button class="c-work primary-color" onclick="location.href='portfolio.html'">Checkout my work</button></p>
 				</div>
 			</div>
 		</section>
 
 
 		<!-- Our Services -->
-		<section class="services-hero">
+		<section id="services" class="services-hero">
 			<div class="services section-padding">
 				<div class="services-heading">
-					<h2>Services</h2>
+					<h2>Skills</h2>
 					<p>Custom website uniquely tailored for your business.</p>
 				</div>
 				<div class="services-content">
 					<div class="row">
 						<div class="col-md-4">
-							<h3>WordPress</h3>
-							<p><span > <i class="fa fa-wordpress" style="color:white;" aria-hidden="true"></i></span></p>
-							<p>Customized theme</p> <p>Blogs</p> 
-							<p>SEO</p>
-							<p>Responsive Web Design</p>
-							<button class="learn-button">Learn More...</button>
+							<h3>ReactJS</h3>
+							<img src="images/logos/react.svg" height="200px" width="200px" alt="">
 						</div>
 
-						<div class="col-md-4 services-each">
-							<h3>Ruby on Rails</h3>
-							<p><i class="fa fa-diamond" style="color:red;" aria-hidden="true"></i></p>
-							<p>Website from scratch</p>
-							<p>Quick prototype</p>
-							<p>Responsive email</p>
-							<p>Responsive Web Design</p>
-							<button class="learn-button">Learn More...</button>
+						<div class="col-md-4">
+							<h3>Redux</h3>
+							<img src="images/logos/redux.svg" height="200px" width="200px" alt="">
 						</div>
-						<div class="col-md-4 services-each">
-							<h3>Website Maintenance</h3>
-							<p><i class="fa fa-code" style="color:white;"aria-hidden="true"></i></p>
-							<p>Regular maintenance</p> 
-							<p>Add content</p>
-							<p>Edit content</p>
-							<p>Bug fixes</p>
-							<button class="learn-button">Learn More...</button>
+
+						<div class="col-md-4">
+							<h3>JavaScript</h3>
+							<img src="images/logos/javascript.svg" height="200px" width="200px" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+						<div class="col-md-4">
+							<h3>jQuery</h3>
+							<img src="images/logos/jQuery.svg" height="200px" width="200px" alt="">
+						</div>
+
+						<div class="col-md-4">
+							<h3>Azure</h3>
+							<img src="images/logos/azure.svg" height="200px" width="200px" alt="">
+						</div>
+
+
+						<div class="col-md-4">
+							<h3>GitHub</h3>
+							<img src="images/logos/github.svg" height="200px" width="200px" alt="">
 						</div>
 					</div>
 				</div>
@@ -127,16 +139,20 @@
 		      <div class="row">
 		        	<div class="col-sm-10 col-sm-offset-1">
 			          	<p class="about-content">
-			            Hi there! Thank you for visiting my website. My name is Archana. I am Website Developer with a passion to build web applications that are maintainable and user intuitive. Proficient in developing applications  using <strong>WordPress, Ruby on Rails</strong> and enhancing the <strong>Front End </strong>of your exhisting website. I have designed and developed functional websites as well as single page applications. Background in databases and customer analytics has helped me develop user intuitive applications. Looking to develop your website and contribute to your business's success by working on building new and innovative features, which ultimately creates a great experience for your users.</p>
+			            Hi there! Thank you for visiting my website. My name is Archana. I am a Website Developer with a passion to build web applications that are maintainable and user intuitive. Proficient in developing applications  using <strong>React, Redux</strong> and enhancing the <strong>Front End </strong>of your exhisting website. I have designed and developed functional websites as well as single page applications. Background in databases and customer analytics has helped me develop user intuitive applications. Looking to develop your website and contribute to your business's success by working on building new and innovative features, which ultimately creates a great experience for your users.</p> 
+			            <p class="about-content"><strong> Contact Me!</strong></br><a href="https://www.linkedin.com/in/archanamudiam" target="_blank" class="btn btn-social-icon btn-lg btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-lg']);">
+				              <i class="fa fa-linkedin"></i></a> 
+
+				        <a href="https://github.com/Archana-M" target="_blank" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-lg']);">
+				              <i class="fa fa-github"></i></a></p>
 			            
 		        	</div><!-- end col -->
-		        	<p><button class="servicesPage-learn-button " >&nbsp; &nbsp; &nbsp; Checkout my work&nbsp; &nbsp; &nbsp; &nbsp;</button></p>
+		        	
 	      		</div><!-- row -->
+
 	    	</div><!-- container -->
   </section><!-- about -->
-	
 
-		
 
 		<!-- FOOTER -->
 		<footer>
